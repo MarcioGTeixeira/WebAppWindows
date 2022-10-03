@@ -11,6 +11,8 @@ terraform apply -var-file="terraform.tfvars"
 
 ### Configuração do arquivo azurepipelines.yaml
 - A pipeline utiliza um self-hosted agent , podendo ser alterada para utilizar um Microsfot-hosted agents
+
+Obs: Para utilização do BridgeCrew, é necessário ter uma conta criada e referenciar a API Key conforme task.
 - A pipeline executa os seguintes **Steps**:<br>
 instala a última versão do terraform  
 inicializa o terraform  
