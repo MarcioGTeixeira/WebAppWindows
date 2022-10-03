@@ -3,7 +3,7 @@
 
 ## Módulo de Infraestrutura (iac) Terraform - WebApp Windows - com pipeline de CI em azure DevOps.
 
-- para utilizar o módulo, basta apenas trocar os nomes das váriaveis(**source, rg, location, plan, os_type, sku_name, appservice, tags**) no arquivo main.tf do diretório root.
+- para utilizar o módulo, basta apenas trocar os nomes das váriaveis(**rg, location, plan, os_type, sku_name, appservice, tags**) no arquivo main.tf do diretório root.
 - Pode ser utilizado, um arquivo terraform.tfvars para substituição das variavéis sem modificação do código,<br>
  conforme exemplo:
 terraform apply -var-file="terraform.tfvars"
