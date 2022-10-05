@@ -27,7 +27,7 @@ inicializa o terraform
 valida as configurações  
 instala o python  
 instala o BridgeCrew e efetua análise de vulnerabilidade  
-publica o módulo em artefato 
+ 
 
 
 
