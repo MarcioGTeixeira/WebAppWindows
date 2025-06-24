@@ -10,7 +10,7 @@ terraform apply -var-file="terraform.tfvars"
 - ao final da implantação, temos o output com a url do site.
 
 ### Configuração do arquivo azurepipelines.yaml
-- A pipeline utiliza um self-hosted agent , podendo ser alterada para utilizar um Microsfot-hosted agents
+- A pipeline utiliza um self-hosted agent , podendo ser alterada para utilizar um Microsoft-hosted agents
 
 Obs: Para utilização do BridgeCrew, é necessário ter uma conta criada e referenciar a API Key conforme task, e também pode ser utilizado como módulo, sendo referenciado no arquivo main.tf
 
